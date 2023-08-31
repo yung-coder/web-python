@@ -1,6 +1,3 @@
-from typing import Match
-
-
 name = "Kanye West is the goat"
 
 # length of the string
