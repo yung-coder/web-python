@@ -1,3 +1,6 @@
+from typing import Match
+
+
 name = "Kanye West is the goat"
 
 # length of the string
@@ -30,3 +33,21 @@ if a > 18:
     print("You can do it")
 else:
     print("You cannot do it")
+
+
+# match
+
+x = 4
+
+match x:
+    case 0:
+        print("Zero")
+
+    case 4:
+        print("Four")
+
+    case 5:
+        print("Five")
+
+    case _:
+        print("Dammm")
