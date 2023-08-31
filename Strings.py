@@ -20,4 +20,13 @@ print(name.count("Kanye"))
 
 # print(name.index("Jay-z"))
 
-# many other functions 
+# many other functions
+
+# if else
+
+a = 17
+
+if a > 18:
+    print("You can do it")
+else:
+    print("You cannot do it")
