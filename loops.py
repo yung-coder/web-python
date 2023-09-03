@@ -17,3 +17,10 @@ count = 5
 while count > 5:
     print(count)
     count = count - 1
+
+
+# functions 
+
+def calculateGmean(a , b):
+    mean = (a*b)/(a+b)
+    print(mean)
