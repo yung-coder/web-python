@@ -88,6 +88,23 @@ class Coder(Worker):
         print("The Default language is Js")
 
 
-c = Coder("Saksham" , 47)
+c = Coder("Saksham", 47)
 c.show()
 c.showLang()
+
+
+# Instance vs Class variables
+
+
+class Demo:
+    companyName = "Appl"  # class variables 
+
+    def __init__(self):
+        self.salary = 67
+
+    def show(self):
+        print(f"Hmm {self.salary}")
+
+
+emp1 = Demo();
+emp1.companyName = "New"
